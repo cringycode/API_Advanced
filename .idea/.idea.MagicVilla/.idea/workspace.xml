@@ -10,11 +10,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da468d83-96e9-4856-b959-adb19ebdc6ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MagicVilla_VillaAPI/Controllers/v2/VillaAPIController.cs" afterDir="false" />
+    <list default="true" id="da468d83-96e9-4856-b959-adb19ebdc6ec" name="Changes" comment="&#10;.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MagicVilla/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MagicVilla/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagicVilla_VillaAPI/Controllers/v2/VillaNumberAPIController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MagicVilla_VillaAPI/Controllers/v2/VillaNumberAPIController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagicVilla_VillaAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MagicVilla_VillaAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicVilla_Utility/SD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MagicVilla_Utility/SD.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicVilla_Web/Services/AuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MagicVilla_Web/Services/AuthService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicVilla_Web/Services/VillaNumberService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MagicVilla_Web/Services/VillaNumberService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicVilla_Web/Services/VillaService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MagicVilla_Web/Services/VillaService.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://D:/Dev/Projects/Dotnet/MagicVilla_API/MagicVilla_VillaAPI/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://D:/Dev/Projects/Dotnet/MagicVilla_API/MagicVilla_VillaAPI/Controllers/v2/VillaNumberAPIController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://D:/Dev/Projects/Dotnet/MagicVilla_API/MagicVilla_VillaAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -70,7 +72,7 @@
     "settings.editor.selected.configurable": "RiderNuGetOptionsPageId"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.MagicVilla_VillaAPI">
+  <component name="RunManager" selected="Multi-Launch.Multi-Launch: MagicVilla">
     <configuration name="MagicVilla_VillaAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MagicVilla_VillaAPI/MagicVilla_VillaAPI.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
@@ -101,6 +103,40 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Multi-Launch: MagicVilla" type="com.intellij.execution.configurations.multilaunch" factoryName="MultiLaunchConfiguration">
+      <rows>
+        <ExecutableRowSnapshot>
+          <option name="condition">
+            <ConditionSnapshot>
+              <option name="type" value="immediately" />
+            </ConditionSnapshot>
+          </option>
+          <option name="executable">
+            <ExecutableSnapshot>
+              <option name="id" value="runConfig:.NET Launch Settings Profile.MagicVilla_VillaAPI" />
+            </ExecutableSnapshot>
+          </option>
+        </ExecutableRowSnapshot>
+        <ExecutableRowSnapshot>
+          <option name="condition">
+            <ConditionSnapshot>
+              <option name="type" value="afterPreviousStarted" />
+            </ConditionSnapshot>
+          </option>
+          <option name="executable">
+            <ExecutableSnapshot>
+              <option name="id" value="runConfig:.NET Launch Settings Profile.MagicVilla_Web" />
+            </ExecutableSnapshot>
+          </option>
+        </ExecutableRowSnapshot>
+      </rows>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.MagicVilla_VillaAPI" />
+      <item itemvalue=".NET Launch Settings Profile.MagicVilla_Web" />
+      <item itemvalue="Multi-Launch.Multi-Launch: MagicVilla" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -113,7 +149,7 @@
       <workItem from="1743171930129" duration="1470000" />
       <workItem from="1743173556634" duration="423000" />
       <workItem from="1743174774516" duration="2150000" />
-      <workItem from="1743348575152" duration="1784000" />
+      <workItem from="1743348575152" duration="2172000" />
     </task>
     <task id="LOCAL-00001" summary="Nuget Packages &amp; Create DataBase">
       <option name="closed" value="true" />
@@ -123,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743175061699</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&#10;.">
+      <option name="closed" value="true" />
+      <created>1743350926960</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743350926960</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +189,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Nuget Packages &amp; Create DataBase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nuget Packages &amp; Create DataBase" />
+    <MESSAGE value="&#10;." />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;." />
   </component>
 </project>
