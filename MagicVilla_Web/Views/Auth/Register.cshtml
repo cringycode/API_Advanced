@@ -11,16 +11,22 @@
         </div>
         <div class="row">
             <div class="col-6 offset-3 pb-2">
-                <input asp-for="UserName" type="text" class="form-control" placeholder="Username..." />
+                <input asp-for="UserName" type="text" class="form-control" placeholder="Username..."/>
             </div>
             <div class="col-6 offset-3 pb-2">
-                <input asp-for="Name" type="text" class="form-control" placeholder="Name..." />
+                <input asp-for="Name" type="text" class="form-control" placeholder="Name..."/>
 
             </div>
             <div class="col-6 offset-3 pb-2">
-                <input asp-for="Password" type="text" class="form-control" placeholder="Password..." />
+                <input asp-for="Password" type="text" class="form-control" placeholder="Password..."/>
 
             </div>
+            <div class="col-6 offset-3 pb-2">
+                <select asp-for="Role" class="form-select" asp-items="@ViewBag.roleList">
+                    <option disabled selected>--Select Role--</option>
+                </select>
+            </div>
+
             <div class="col-6 offset-3 pb-2">
                 <button type="submit" class="form-control btn-success" value="Submit">Register</button>
 
@@ -28,9 +34,9 @@
         </div>
     </div>
 
-    
+
 </form>
 
 @section Scripts {
-    <partial name="_ValidationScriptsPartial" />
+    <partial name="_ValidationScriptsPartial"/>
 }

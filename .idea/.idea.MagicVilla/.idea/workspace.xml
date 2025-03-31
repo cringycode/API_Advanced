@@ -10,9 +10,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da468d83-96e9-4856-b959-adb19ebdc6ec" name="Changes" comment="Dynamic API Versioning">
+    <list default="true" id="da468d83-96e9-4856-b959-adb19ebdc6ec" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MagicVilla/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MagicVilla/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagicVilla_Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MagicVilla_Web/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicVilla_Utility/SD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MagicVilla_Utility/SD.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicVilla_Web/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MagicVilla_Web/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicVilla_Web/Views/Auth/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MagicVilla_Web/Views/Auth/Register.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,22 +56,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.MagicVilla_VillaAPI.executor": "Run",
-    ".NET Launch Settings Profile.MagicVilla_Web.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "ToolWindow.Monitoring.ShowToolbar": "false",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "RiderNuGetOptionsPageId"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.MagicVilla_VillaAPI.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.MagicVilla_Web.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;ToolWindow.Monitoring.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;RiderNuGetOptionsPageId&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Multi-Launch.Multi-Launch: MagicVilla">
     <configuration name="MagicVilla_VillaAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/MagicVilla_VillaAPI/MagicVilla_VillaAPI.csproj" />
@@ -147,7 +149,8 @@
       <workItem from="1743171930129" duration="1470000" />
       <workItem from="1743173556634" duration="423000" />
       <workItem from="1743174774516" duration="2150000" />
-      <workItem from="1743348575152" duration="5021000" />
+      <workItem from="1743348575152" duration="5189000" />
+      <workItem from="1743416694522" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="Nuget Packages &amp; Create DataBase">
       <option name="closed" value="true" />
@@ -173,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743351359592</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="NavBar">
+      <option name="closed" value="true" />
+      <created>1743368543865</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743368543865</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +208,26 @@
     <MESSAGE value="Nuget Packages &amp; Create DataBase" />
     <MESSAGE value="&#10;." />
     <MESSAGE value="Dynamic API Versioning" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dynamic API Versioning" />
+    <MESSAGE value="NavBar" />
+    <option name="LAST_COMMIT_MESSAGE" value="NavBar" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/MagicVilla_Web/Controllers/AuthController.cs</url>
+          <line>56</line>
+          <properties documentPath="D:\Dev\Projects\Dotnet\MagicVilla_API\MagicVilla_Web\Controllers\AuthController.cs" containingFunctionPresentation="Method 'Login'">
+            <startOffsets>
+              <option value="2160" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2177" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
