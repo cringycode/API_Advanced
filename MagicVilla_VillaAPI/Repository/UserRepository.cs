@@ -36,6 +36,7 @@ namespace MagicVilla_VillaAPI.Repository
             {
                 return true;
             }
+
             return false;
         }
 
@@ -77,7 +78,6 @@ namespace MagicVilla_VillaAPI.Repository
             {
                 Token = tokenHandler.WriteToken(token),
                 User = _mapper.Map<UserDTO>(user),
-                
             };
             return loginResponseDTO;
         }
@@ -87,8 +87,8 @@ namespace MagicVilla_VillaAPI.Repository
             ApplicationUser user = new()
             {
                 UserName = registerationRequestDTO.UserName,
-                Email=registerationRequestDTO.UserName,
-                NormalizedEmail=registerationRequestDTO.UserName.ToUpper(),
+                Email = registerationRequestDTO.UserName,
+                NormalizedEmail = registerationRequestDTO.UserName.ToUpper(),
                 Name = registerationRequestDTO.Name
             };
 
@@ -97,20 +97,19 @@ namespace MagicVilla_VillaAPI.Repository
                 var result = await _userManager.CreateAsync(user, registerationRequestDTO.Password);
                 if (result.Succeeded)
                 {
-                    if (!_roleManager.RoleExistsAsync("admin").GetAwaiter().GetResult()){
-                        await _roleManager.CreateAsync(new IdentityRole("admin"));
-                        await _roleManager.CreateAsync(new IdentityRole("customer"));
+                    if (!_roleManager.RoleExistsAsync(registerationRequestDTO.Role).GetAwaiter().GetResult())
+                    {
+                        await _roleManager.CreateAsync(new IdentityRole(registerationRequestDTO.Role));
                     }
-                    await _userManager.AddToRoleAsync(user, "admin");
+
+                    await _userManager.AddToRoleAsync(user, registerationRequestDTO.Role);
                     var userToReturn = _db.ApplicationUsers
                         .FirstOrDefault(u => u.UserName == registerationRequestDTO.UserName);
                     return _mapper.Map<UserDTO>(userToReturn);
-
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
-
             }
 
             return new UserDTO();

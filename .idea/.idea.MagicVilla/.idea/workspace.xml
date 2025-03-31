@@ -10,11 +10,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da468d83-96e9-4856-b959-adb19ebdc6ec" name="Changes" comment="">
+    <list default="true" id="da468d83-96e9-4856-b959-adb19ebdc6ec" name="Changes" comment="Role Dropdown on Register">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MagicVilla/.idea/dataSources/706b4007-870c-46c2-a06c-7a456b23ab43.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MagicVilla/.idea/dataSources/706b4007-870c-46c2-a06c-7a456b23ab43.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MagicVilla/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MagicVilla/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagicVilla_Utility/SD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MagicVilla_Utility/SD.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MagicVilla_VillaAPI/Repository/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MagicVilla_VillaAPI/Repository/UserRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MagicVilla_Web/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MagicVilla_Web/Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MagicVilla_Web/Views/Auth/Register.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/MagicVilla_Web/Views/Auth/Register.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +150,7 @@
       <workItem from="1743173556634" duration="423000" />
       <workItem from="1743174774516" duration="2150000" />
       <workItem from="1743348575152" duration="5189000" />
-      <workItem from="1743416694522" duration="598000" />
+      <workItem from="1743416694522" duration="1479000" />
     </task>
     <task id="LOCAL-00001" summary="Nuget Packages &amp; Create DataBase">
       <option name="closed" value="true" />
@@ -184,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743368543865</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Role Dropdown on Register">
+      <option name="closed" value="true" />
+      <created>1743417374866</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743417374866</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +217,8 @@
     <MESSAGE value="&#10;." />
     <MESSAGE value="Dynamic API Versioning" />
     <MESSAGE value="NavBar" />
-    <option name="LAST_COMMIT_MESSAGE" value="NavBar" />
+    <MESSAGE value="Role Dropdown on Register" />
+    <option name="LAST_COMMIT_MESSAGE" value="Role Dropdown on Register" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
